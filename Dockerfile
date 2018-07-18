@@ -1,4 +1,4 @@
-FROM golang:1.10.3
+FROM golang:1.10.3-alpine
 LABEL maintainer="akbisw@gmail.com"
 
 ENV SOURCES /go/src/github.com/akbisw/Cloud-Native-Go/
